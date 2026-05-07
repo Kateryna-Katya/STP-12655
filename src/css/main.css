@@ -94,7 +94,8 @@ font-size: 16px;
 }
 .number-item{
 border-radius: 8px 0 0 8px;
-    padding: 10px;
+
+width: 18px;
 background: #0f0c1f;
     display: flex;
     flex-direction: column;
@@ -118,6 +119,7 @@ border-radius: 0 8px 8px 0;
 display: flex;
 flex-wrap: wrap;
 padding-top: 6px;
+width: 325px;
 }
 .choose-text-wrapper{
     display: flex;
@@ -204,4 +206,72 @@ margin-top: 10px;
     padding-bottom: 4px;
     padding-left: 2px;
     width: 325px;
+}
+@media only screen and (min-width: 1440px) {
+ .choose-list{
+    gap: 22px;
+    width: 1240px;
+ }
+ .choose-item{
+    width: 1240px;
+ }
+ .number-item{
+    width: 32px;
+    padding: 0;
+    font-size: 20px;
+ }
+ .choose-item-wrapper{
+border-radius: 0 8px 8px 0;
+    padding: 12px 22px;
+    align-items: center;
+    width: 1208px;
+gap: 28px;
+ }
+ .logo-img{
+    order: 1;
+    margin: 0;
+    padding: 0;
+ }
+ .choose-text-wrapper{
+    order: 2;
+    width: 280px;
+    margin: 0;
+    padding: 0;
+ }
+ .fs-text{
+    font-weight: 800;
+        font-size: 18px;
+        line-height: 1.11111;
+ }
+ .opis-text{
+font-size: 14px;
+    line-height: 1.42857;
+ }
+ .star-wrap{
+order: 4;
+width: 116px;
+margin: 0;
+padding: 0;
+ }
+ .number-star{
+    font-size: 18px;
+ }
+ .star-img{
+    width: 80px;
+        height: 12px;
+ }
+ .recenzje-text{
+    font-size: 16px;
+ }
+ .choose-btn{
+order: 5;
+width: 200px;
+    height: 72px;
+    margin: 0;
+ }
+ .picture{
+    width: 274px;
+    background-color: inherit;
+    order: 3;
+ }
 }
