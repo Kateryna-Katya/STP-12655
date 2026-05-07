@@ -1,56 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/test/favicon.svg" />
+    <link rel="icon" type="image/png" href="/test/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <title>Najlepsze kasyna online w Polsce — nowe propozycje 2026</title>
     <script type="module" crossorigin src="/test/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/test/assets/styles-X9THPhCB.css">
+    <link rel="stylesheet" crossorigin href="/test/assets/index-CGSrVVMQ.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="hero-section">
+    <div class="container home-container">
+        <h1 class="home-title">Nowe kasyna online w Polsce — <span class="home-span">ranking 2026</span> </h1>
+        <p class="home-text">Porównaj aktualne oferty, sprawdź bonusy i wybierz platformę, która daje najlepszy start. Ranking oparty na ocenach
+        graczy i realnych doświadczeniach.</p>
+    <ul class="home-list">
+        <li class="home-item">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAOdEVYdFNvZnR3YXJlAEZpZ21hnrGWYwAAAXFJREFUeAHFVe1Nw0AMfQn9g/hTJiAb0A0oEzBCuwFs0DABI5QNGAE6QbtBusHxlURCIsa+JJeQ3JEPUdWSldS1n+2z7wU4kHh9nChFgAxL+Ij458Y7xR5jRcAoRkgJnvlJv/STbSkWOuFoMAH5wC0pTFkDeseS7dveSTh4XqsqYl0R4cJZhCRJ8FD4lklmbmDOjoHCgHdF7FVp8y1+ewxGxq5p8nEgGQ3M7T/K4P4VWED5BixYXwYD6/WKoXiooRUUCL0z3KOzimorzGTNvhbguv18tVZdse0/Y9w0qi4vw9YG6gKujmJSrBlhWpq8c7ziC9f8Kus0c7Z/gkv9/MYbrMchZxpj3bJL5bY2q7i1xMLpkF9R1ZtcYPiFbAXVKwtKYkFf4BhPOkZ1FGPuvbSnqvNu+fEsXFviBk+Z2SQgYeZqUKIGTJhGE8Nq/UANQM67UY1KVaFk1u+PgXZ+mnRwhjm/BtqQ8epNsOPP0wbHkB99r1DXp9NNtgAAAABJRU5ErkJggg==" alt="icon" loading="lazy">
+            <p>100% bezpieczne</p>
+        </li>
+        <li class="home-item">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAOdEVYdFNvZnR3YXJlAEZpZ21hnrGWYwAAAUJJREFUeAGtVNtRwzAQXPubD9OBSwgVEDqgg7gDSkgp0EFKMB0kHSQdiAE7nuGDY+9Qgj78VLQzHs/osdrdOwmIgDRYiUOBlCBpJS2E/w1SwZQqqX4dHpECntTx74x4IooMM0B1JQQ1vw/ueMcP1tkdHsb25ItIv/HEoRXJT7gFSipnHGn9SOuljWkMZ7xM7c1nKIUqze5x0pz/JiMVi6Cgqn2o1MbDrmixk088Ywn6SK9zHCNhxTW1j0WjejWHo6QN3qylnLc9ttZZDWrvYDu8sMPWq6gnFSDobSrGpAK11Zo9vbZ6wKbvkKBj9lgCy1ELdClW8x9NSBr9GGnlQ+K+3o4j5mVQ4qSknnhnWQ/09hAm3wpqLbnqgM5uYXG5hbgFWhhfPDe3t+cRf2F97YqFpONRiM8yR0X7B6SCRdHE2f8F+aIkAZXPjYwAAAAASUVORK5CYII=" alt="icon" loading="lazy">
+            <p>szybkie wypłaty</p>
+        </li>
+        <li class="home-item">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAOdEVYdFNvZnR3YXJlAEZpZ21hnrGWYwAAAhZJREFUeAGVVe1RwkAQfTn9oeM4gxUYO8AKoAPsQDqQDhIrsASwAkrQDrSDYAVhIIYZGDl39zbhQhKMO3NDbm9v9+3HPYCOYi16doPw1Dk6O/pGbHO80W9Ky5Yrw6Rim2Oi+n6hO290yhdzRPTZgxXVAgE+3SGhNrj1bNnZSDYGA8pqGVySfQ1lhplGZ5QR6W7RltUKD5VMipUelYWUcz38oMMQfwjbUBleyD7Re3PaPx07jfUw4YjcKFqPqJaozxclE++M9lO5u8Gg6nQjkRNNIxSdQ1I2hL7raecKgpFnVRAFkrEaT9tQSHmcTcROdFpsLXUVNxWGonH3t3hGu3BDFsGVs6HGBTjDEN78yjTRPrhGbJyGDEBjcnM0Jg3Oy0dy1jAtAaE3LgNTjobVOW0Tg5mg3ktJEvqORb/Fq+d4IcHJp0FX+cGNAqjKRbO5ofSX9LukaCFOSSBNXGKHe6rzHWUQa6BRaWPdBLFPo5e4DOGpVwbXvEMfdvhSZ1JKrT1TwLsgVseyIX4Yox3xQoLzQ1qR3bnOrdVAe+EWltkhg1SYLJWlXa/N8RrDBl5ICrTeqw0rgHgGPZ5wr2ldHX7R8QPhRWdix8SVl1wRNWZbMhsbbjqQkKOC4kXO2w1dSeZeqtOmAJp67P0BTGtU2YIk8qjQioOMuCETfki8f5K0jStOoQ+5+yXZ+M5cgKgTyg6Bev9x9As4G915r26IiAAAAABJRU5ErkJggg==" alt="icon" loading="lazy">
+        </li>
+    </ul>
+    </div>
+</section>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>
